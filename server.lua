@@ -4,7 +4,7 @@ Webhook = "DISCORD LINK" <---- Example
 
 QBCore = exports['qb-core']:GetCoreObject()
 
-Webhook = "https://discord.com/api/webhooks/1018981802519580713/iJLdsV2AzkpAVub38Xwo3Uu57fpVfwiZShRLWg2-SKtoaIn5ZUMMhd2XdsSXftCLvg7U" -- Change to "PUT LINK HERE"
+Webhook = nil -- Change to "PUT LINK HERE"
 
 AddEventHandler('onResourceStart', function(resource)
     if resource == GetCurrentResourceName() then
